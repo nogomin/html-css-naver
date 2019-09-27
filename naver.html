@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>네이버</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/naver_favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./naver.css"/>
+  </head>
+  <body>
+    <header><!--시멘틱태그-->
+      <div class="header-center"><!--가운데 정렬용 div-->
+        <div>
+          <span>네이버를 시작페이지로</span><!-- span은 display:inline -->
+          <span>쥬니어네이버</span>
+          <span>해피빈</span>
+        </div>
+        <div class="header-search">
+          <h1><a href="https://www.naver.com" class="blind">네이버</a></h1>
+          <h2 class="blind">검색창</h2><!-- display:none 처리하면 스크린리더에서도 안읽힌다-->
+          <fieldset>
+            <legend class="blind">검색</legend>
+            <input />
+            <button class="blind">검색</button>
+          </fieldset>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li>메일</li>
+        <li>카페</li>
+        <li>블로그</li>
+        <li>지식iN</li>
+        <li>쇼핑</li>
+        <li>네이버Pay</li>
+        <li>네이버Tv</li>
+      </ul>
+    </nav>
+    <main>
+      <h2>실시간 검색어</h2>
+      <h3>언론사 목록</h3>
+      <ul>
+        <li><img src="./images/매일경제.png" alt="매일경제"/></li>
+        <li><img src="./images/스포츠조선.png" alt="스포츠조선"/></li>
+        <li><img src="./images/ytn.png" alt="ytn"/></li>
+      </ul>
+    </main>
+    <footer>
+      <div>공지사항</div>
+      <div>Creators</div>
+      <div>회사소개</div>
+    </footer>
+  </body>
+</html>

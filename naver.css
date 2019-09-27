@@ -1,0 +1,28 @@
+/*
+header-center h1 {} 자손선택
+hedder-center > div 바로 밑 자식
+*/
+/* display: inline은 콘텐츠크기만 할당
+   display: inline-block은 width와 height로 공간확보 가능
+*/
+.header-center {
+  margin: 0 auto;
+  width: 1080px;
+}
+.header-search > h1 {
+  width: 280px;
+  display: inline-block;
+}
+.header-search > h2 { display: none; }
+.header-search fieldset {
+  width: 520px;
+  display: inline-block;
+}
+.blind {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+}
