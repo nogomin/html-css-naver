@@ -11,7 +11,7 @@
   <body>
     <header><!--시멘틱태그-->
       <div class="center-align"><!--가운데 정렬용 div-->
-        <div>
+        <div id="header-top">
           <span>네이버를 시작페이지로</span><!-- span은 display:inline -->
           <span>쥬니어네이버</span>
           <span>해피빈</span>
@@ -35,6 +35,13 @@
       </div>
     </header>
     <nav>
+      <div class="center-align relative">
+        <div class="search-ranking">
+          <h2 class="blind">실시간 검색어</h2>
+          <span id="rank-number">1</span>
+          <div>아이디</div>
+        </div>
+      </div>
       <div class="center-align">
         <ul>
           <li><a href=""><span></span><span class="blind">메일</span></a></li>
@@ -44,6 +51,7 @@
           <li><a href=""><span></span><span class="blind">쇼핑</span></a></li>
           <li><a href=""><span></span><span class="blind">네이버Pay</span></a></li>
           <li><a href=""><span></span><span class="blind">네이버Tv</span></a></li>
+          <div class="nav-divider"></div>
         </ul>
       </div>
     </nav>

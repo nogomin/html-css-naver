@@ -16,9 +16,22 @@ hedder-center > div 바로 밑 자식
   width: 1px;
   height: 1px;
 }
-.center-align {
-  margin: 0 auto;
-  width: 1080px;
+header {
+  height: 170px;
+}
+#header-top {
+  float: right;
+  margin-top: 8px;
+}
+#header-top span {
+  color: #888;
+  letter-spacing: -1px;
+  font-size: 11px;
+  line-height: 22px;
+}
+.header-search {
+  clear: both;
+  padding-top: 20px;
 }
 .header-search a {
   text-decoration: none;
@@ -72,10 +85,15 @@ hedder-center > div 바로 밑 자식
   display: inline-block;
   margin: 14px;
 }
-
+nav {
+  height: 46px;
+  border-top: 1px solid #f1f3f6;
+  border-bottom: 1px solid #d1d8e4;
+}
 nav ul {
+  display: inline-block;
   margin: 0;
-  padding: 0;
+  padding: 16px 0 0 4px;
   list-style: none;
 }
 nav li {
@@ -110,4 +128,12 @@ nav li:nth-child(5) span:first-child {
 nav li:nth-child(6) span:first-child {
   width: 25px;
   background-position: -70px -285px;
+}
+
+.nav-divider {
+  display: inline-block;
+  margin: 18px 16px 0;
+  width: 1px;
+  height: 14px;
+  background: #ebeef3;
 }
